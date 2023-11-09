@@ -35,6 +35,7 @@ body {
     --space-section: 15px;
     --space-main-section: 55px;
     --gap: 50px;
+    --gap-2: 20px;
     --line-height: 30px;
 }
 
@@ -139,6 +140,10 @@ body {
     gap: 20px;
 }
 
+.gap-2 {
+    gap: 50px;
+}
+
 .txt-decor {
     text-decoration: underline;
 }
@@ -150,7 +155,7 @@ body {
 .header {
     display: flex;
     background-color: var(--white);
-    border: 1px solid #a9a9a9;
+    border-bottom-style:double;
 }
 
 .header {
@@ -178,6 +183,10 @@ body {
 
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .items-center {
@@ -401,6 +410,7 @@ body {
 /* images and icons*/
 
 .img-delivery {
+    width: 100%;
     padding-left: 67px;
     margin-bottom: 192px;
     margin-top: 151px;
@@ -432,7 +442,18 @@ body {
 }
 
 .img-bike {
+    width: 100%;
     padding-bottom: 31px;
+}
+
+.img-person {
+    padding-top: 60px;
+    padding-bottom: 105px;
+}
+
+.img-bird {
+    width: 100%;
+    padding-top: 25px;
 }
 
 .icon-section-case {
@@ -495,6 +516,10 @@ body {
 
 /* cards */
 
+.section-cards {
+    background-color: var(--very-pale-orange);
+}
+
 .card-block {
     max-width: 1290px;
     margin-left: 75px;
@@ -506,8 +531,7 @@ body {
 }
 
 
-.section-cards {
-    background-color: var(--very-pale-orange);
+.block-cards {
     padding-left: 55px;
     padding-right: 55px;
 }
@@ -576,12 +600,10 @@ body {
 /* team's cards */
 
 .teams-block {
-    width: 440px;
     padding-left: 20px;
     margin-left: 75px;
-    gap: 80px;
-
-}
+ 
+ }
 
 .txt-teams {
     width: 409px;
@@ -634,10 +656,6 @@ body {
     padding-top: 65px;
 }
 
-.img-person {
-    padding-top: 60px;
-    padding-bottom: 105px;
-}
 
 /* section review */
 
@@ -686,10 +704,6 @@ body {
 
 .work-tools {
     margin-top: 169px;
-}
-
-.img-bird {
-    padding-top: 25px;
 }
 
 .section-work-tools {
