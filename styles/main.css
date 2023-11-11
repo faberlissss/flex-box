@@ -33,7 +33,7 @@ body {
     --txt-button: 16px;
     --txt-button-2: 17px;
     --space-section: 15px;
-    --space-main-section: 55px;
+    --space-main-section: 20px;
     --gap: 50px;
     --gap-2: 20px;
     --line-height: 30px;
@@ -165,7 +165,7 @@ body {
 }
 
 .container {
-    max-width: calc(1440 + var(--space-section)*2 );
+    max-width: calc(1440px + var(--space-section)*2 );
     padding: 0 var(--space-section);
     margin: 0 auto;
     width: 100%;
@@ -173,7 +173,7 @@ body {
 }
 
 .main-container {
-    max-width: calc(1130 + var(--space-main-section)*2 );
+    max-width: calc(1330px + var(--space-main-section)*2 );
     padding: 0 var(--space-main-section);
     margin: 0 auto;
     width: 100%;
@@ -248,13 +248,12 @@ body {
 
 .main-content {
     padding: 20px 0px 20px 0px ;
+    align-items: center;
 }
 
 
 .main-title-1 {
-    padding-bottom: 51px;
     padding-top: 129px;
-    padding-top: 162px;
 }
 
 .main-title-2 {
@@ -263,7 +262,7 @@ body {
 
 .txt-sm-main {
     padding-top: 25px;
-    margin-bottom: 182px;
+    margin-bottom: 35px;
 }
 
 
@@ -410,10 +409,16 @@ body {
 /* images and icons*/
 
 .img-delivery {
+    max-width: 759px;
+ 
+}
+
+.img-width {
     width: 100%;
-    padding-left: 67px;
-    margin-bottom: 192px;
-    margin-top: 151px;
+}
+
+.img-width-2 {
+    width: 100%;
 }
 
 .icon-iot {
@@ -452,7 +457,7 @@ body {
 }
 
 .img-bird {
-    width: 100%;
+    max-width: 1023px;
     padding-top: 25px;
 }
 
@@ -462,8 +467,11 @@ body {
 
 /* about companies */
 
-.block-companies {
+.section-companies {
     background-color: var(--very-light-red);
+}
+
+.block-companies {
     padding: 100px 0;
 }
 
