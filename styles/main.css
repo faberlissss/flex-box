@@ -429,6 +429,11 @@ body {
     margin-left: 35px;
 
 }
+.img-advant {
+    width: 100%;
+    max-width: 632px;
+}
+
 
 .icon-mobile {
     margin-left: 50px;
@@ -454,6 +459,9 @@ body {
 .img-person {
     padding-top: 60px;
     padding-bottom: 105px;
+}
+.img-person-width {
+    width: 100%;
 }
 
 .img-bird {
@@ -529,19 +537,25 @@ body {
 }
 
 .card-block {
-    max-width: 1290px;
-    margin-left: 75px;
+    padding-bottom: 75px;
+
 }
 
 
 .card-block-1 {
-    margin-bottom: 75px;
+    padding-bottom: 75px;
+    gap: 30px;
 }
 
-
+.card-block-2 {
+    gap: 30px;
+}
 .block-cards {
+    max-width: 1290px;
     padding-left: 55px;
     padding-right: 55px;
+   
+
 }
 
 .card-item {
@@ -549,8 +563,6 @@ body {
     width: calc(100% / 3);
     object-fit: cover;
     display: inline-block;
-    margin-left: 60px;
-    padding-left: 40px;
 }
 
 .txt-card-item {
