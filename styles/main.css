@@ -560,7 +560,6 @@ body {
 
 .card-item {
     max-width: 330px;
-    width: calc(100% / 3);
     object-fit: cover;
     display: inline-block;
 }
@@ -626,7 +625,7 @@ body {
  }
 
 .txt-teams {
-    width: 409px;
+    max-width: 409px;
     line-height: 32px;
 }
 
