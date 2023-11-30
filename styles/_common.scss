@@ -8,6 +8,9 @@ body {
     font-family: 'Graphik LCG', sans-serif;
     font-size: 50px;
 }
+$md:768px;
+$sm:576px;
+$lg:992px;
 
 :root {
     --normal: 400px;
@@ -227,6 +230,9 @@ body {
     align-items: center;
     gap: 57px;
     padding-left: 51px;
+    @media (max-width:$sm) {
+        gap: 20px;
+    }
     
 
 }
@@ -254,6 +260,9 @@ body {
 
 .main-title-1 {
     padding-top: 129px;
+    @media (max-width:$md) {
+        padding-top: 50px;
+    }
 }
 
 .main-title-2 {
@@ -274,6 +283,9 @@ body {
     padding-bottom: 25px;
     display: flex;
     gap: 10px;
+    @media (max-width:$md) {
+        padding-top:25px;
+    }
 }
 
 .header-btn {
@@ -455,6 +467,11 @@ body {
     width: 100%;
     padding-bottom: 31px;
 }
+.img-cake {
+    @media (max-width: $md) {
+        padding-bottom: 20px;
+    }
+}
 
 .img-person {
     padding-top: 60px;
@@ -496,7 +513,10 @@ body {
     gap:100px;
     flex-wrap: wrap;
     padding-top: 70px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
+
 
 .companies-item {
     display: flex;
@@ -512,12 +532,18 @@ body {
     padding: 100px 0;
     padding-right: 75px;
     padding-left: 75px;
+     @media (max-width:$md) {
+        padding-bottom: 10px;
+    }
 }
 
 
 .txt-h2-advantages {
     margin-bottom: 30px;
     margin-top: 150px;
+      @media (max-width:$md) {
+        margin-top: 10px;
+    }
 }
 
 .txt-h6-advantages {
@@ -622,7 +648,13 @@ body {
     padding-left: 20px;
     margin-left: 75px;
  
- }
+}
+
+.team-box {
+     @media (max-width: $lg) {
+        padding-bottom: 30px;
+    }
+}
 
 .txt-teams {
     max-width: 409px;
@@ -700,6 +732,9 @@ body {
     object-fit: cover;
     display: inline-block;
     margin-right: 70px;
+    @media (max-width:$lg) {
+        padding-top: 20px;
+    }
 }
 
 .items-review-2 {
@@ -707,6 +742,9 @@ body {
     object-fit: cover;
     display: inline-block;
     margin-right: 138px;
+     @media (max-width:$lg) {
+        padding-top: 20px;
+    }
 }
 
 .txt-h5 {
@@ -762,6 +800,9 @@ body {
     margin-top: 97px;
     max-width: 850px;
     margin-bottom: 391px;
+    @media (max-width: $md) {
+        margin-bottom: 80px;
+    }
 }
 
 .block-items-3 {
@@ -775,12 +816,16 @@ body {
 
 .items-list {
     object-fit: cover;
-    display: inline-block;
     margin-right: 34px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
+
 
 .ul-items {
     max-width: 189px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 .link-item {
     text-decoration: none;
@@ -803,9 +848,13 @@ body {
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 48px;
-}
+    @media (max-width: $sm) {
+        gap: 10px;
+    }
+}  
 
 .txt-section-footer {
     padding-left: 10px;
 }
+
 
